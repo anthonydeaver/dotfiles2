@@ -2,6 +2,9 @@
 	name = Anthony Deaver
 	email = lordbishop+github@gmail.com
 
+[github]
+    user = anthonydeaver
+    token = 26d9ac92e9a52bb61ca02814673593e0
 [color]
   ui = auto
 
@@ -40,3 +43,4 @@
     co = checkout
     df = diff
     pom = push origin master
+    p = pull

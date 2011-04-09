@@ -12,8 +12,6 @@ set backupdir=~/.vim/backups
 set directory=~/.vim/swaps
 
 " Set some junk
-set wildignore+=*/javascript/dojo-release-1.5.0/*
-set wildignore+=*/javascript/dojo-release-1.5.0-src/*
 set autoindent " Copy indent from last line when starting new line.
 set backspace=indent,eol,start
 " set cursorline " Highlight current line
@@ -22,12 +20,6 @@ set diffopt+=iwhite " Ignore whitespace changes (focus on code changes)
 set encoding=utf-8 nobomb " BOM often causes trouble
 set esckeys " Allow cursor keys in insert mode.
 set expandtab " Expand tabs to spaces
-" set foldcolumn=4 " Column to show folds
-" set foldenable
-" set foldlevel=2
-" set foldlevelstart=2 " Sets `foldlevel` when editing a new buffer
-" set foldmethod=indent " Markers are used to specify folds.
-" set foldnestmax=3 " Set max fold nesting level
 set hidden " When a buffer is brought to foreground, remember undo history and marks.
 set history=1000 " Increase history from 20 default to 1000
 set hlsearch " Highlight searches
@@ -37,7 +29,7 @@ set magic " Enable extended regexes.
 set nocompatible " Make vim more useful
 set noerrorbells " Disable error bells.
 set nostartofline
-" set nowrap " Do not wrap lines.
+set nowrap " Do not wrap lines.
 set nu " Enable line numbers.
 set report=0 " Show all changes.
 set ruler " Show the cursor position
@@ -55,7 +47,6 @@ set wildchar=<TAB> " Character for CLI expansion (TAB-completion).
 set wildmenu " Hitting TAB in command mode will show possible completions above command line.
 set wildmode=list:longest " Complete only until point of ambiguity.
 
-set wrap
 set textwidth=79
 set formatoptions=qrn1
 
