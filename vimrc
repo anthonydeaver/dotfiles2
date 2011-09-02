@@ -1,8 +1,8 @@
 " Set syntax highlighting options.
 " set t_Co=256
-set background=dark
+set background=light
 syntax on
-colorscheme solarized
+" colorscheme solarized
 
 " Change mapleader
 let mapleader=","
@@ -53,8 +53,15 @@ set formatoptions=qrn1
 " Fix page up and down
 map <PageUp> <C-U>
 map <PageDown> <C-D>
+map <F2> 0i//<Esc>  
+map <F3> 02dw
 imap <PageUp> <C-O><C-U>
 imap <PageDown> <C-O><C-D>
+imap <F2> <Esc>0i//  
+imap <F3> <Esc>02dwi
+
+nnoremap <C-Left> :tabprevious<CR>
+nnoremap <C-Right> :tabnext<CR>
 
 " Emulate bundles, allow plugins to live independantly. Easier to manage.
 " call pathogen#runtime_append_all_bundles()
