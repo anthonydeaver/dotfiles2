@@ -45,3 +45,4 @@
     pom = push origin master
     p = pull
     cia = commit --amend
+    cim = commit -m
