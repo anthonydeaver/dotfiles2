@@ -100,6 +100,7 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
     . /etc/bash_completion
 fi
 
+set -o vi
 
 PATH=$PATH:/home/adeaver/Applications/air/bin
 PATH=$PATH:"/Users/Anthony/Documents/Scripts/todo/scripts"

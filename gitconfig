@@ -43,6 +43,8 @@
     co = checkout
     df = diff
     pom = push origin master
+    pod = push origin dev
     p = pull
+    po = pull origin
     cia = commit --amend
     cim = commit -m
