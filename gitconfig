@@ -36,6 +36,9 @@
 [branch]
   autosetupmerge = true
 
+[core]
+  excludesfile = ~/.gitignore
+
 [alias]
     st = status
     ci = commit
@@ -48,3 +51,6 @@
     po = pull origin
     cia = commit --amend
     cim = commit -m
+    sync = pull origin 
+[credential]
+	helper = osxkeychain

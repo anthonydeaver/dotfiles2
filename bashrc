@@ -102,7 +102,7 @@ fi
 
 set -o vi
 
-PATH=$PATH:/home/adeaver/Applications/air/bin
+PATH=$PATH:/home/adeaver/Applications/air/bin:/home/adeaver/Documents/android-sdk-macosx/tools
 PATH=$PATH:"/Users/Anthony/Documents/Scripts/todo/scripts"
 export PATH
 
